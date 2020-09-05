@@ -39,5 +39,32 @@ public class App {
             System.out.println("it is not an alien");
             System.out.println("and I am scared of aliens");
         }
+
+        int topScore = 80;
+        if (topScore != 100) { //not equal to operator
+            System.out.println("You got the high score!");
+        }
+
+        int secondTopScore = 60;
+        if (topScore > secondTopScore && topScore <100) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+        // single & is a bitwise operator for AND
+        // && performs two operator checks, operates on boolean
+
+        if ((topScore > 90) || (secondTopScore <= 90)){
+            System.out.println("Either or both of the conditions are true");
+        }
+        // | is bitwise OR operator
+        // || is logical OR operator, operates on boolean
+
+        boolean isCar = false;
+        if (isCar = true) { // even though this isn't the correct ==, this is working because it returns a boolean when isCar is being assigned to true
+            System.out.println("This is not supposed to happen");
+        }
+        if (!isCar) { // ! is a logical compliment operator and tests the alternative value of the boolean
+            System.out.println("This is not a car");
+        }
+
     }
 }
