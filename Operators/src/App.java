@@ -28,5 +28,16 @@ public class App {
         result += 2; // +2
         result*=10; //result*10
         result/=10; //result/10
+
+
+        boolean isAlien = false; //assignment operator
+        if (isAlien == false) // equality operator
+            System.out.println("it is not an alien");
+
+        // good to use code blocks, otherwise only one line can be executed after if statement
+        if (isAlien == false){ // equality operator
+            System.out.println("it is not an alien");
+            System.out.println("and I am scared of aliens");
+        }
     }
 }
