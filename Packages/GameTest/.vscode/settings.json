@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/rhys/Desktop/Coding/Udemy/java_masterclass/Packages/MyPackage/MyPackage.jar"
+    ]
+}
